@@ -1,15 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Poppins&display=swap');
 
 /*-------------------------------------
  * customize material design icon sizes 
  *-------------------------------------
  */
 
-.material-icons.md-18 { font-size: 18px; }
-.material-icons.md-24 { font-size: 24px; }
-.material-icons.md-36 { font-size: 36px; }
-.material-icons.md-48 { font-size: 48px; }
+.material-icons.md-18 {
+  font-size: 18px;
+}
+
+.material-icons.md-24 {
+  font-size: 24px;
+}
+
+.material-icons.md-36 {
+  font-size: 36px;
+}
+
+.material-icons.md-48 {
+  font-size: 48px;
+}
 
 .responsive {
-    width: 100%;
-    height: auto;
-  }
+  width: 100%;
+  height: auto;
+}
+
+.navbar-transparent {
+  background-color: transparent !important;
+}
+
+.navbar-brand-color {
+  color: #fff !important;
+}
+
+.navbar-brand img {
+  fill: #ffffff; /* 设置颜色为白色 */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url('../images/parkinglot.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+}
