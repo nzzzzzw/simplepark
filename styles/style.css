@@ -35,7 +35,7 @@
 }
 
 .navbar-brand img {
-  fill: #ffffff; /* 设置颜色为白色 */
+  fill: #ffffff; 
 }
 
 * {
@@ -43,13 +43,62 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  /* color: #fff; */
 }
 
 body {
+  /* display: flex; */
   justify-content: center;
   align-items: center;
   min-height: 100vh;
   background: url('../images/parkinglot.jpg') no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+  /* review page style; */
+.container-review{
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  background: transparent;
+  border: 2px solid rgba(2, 2, 2, 0.2);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+  color: #fff;
+  border-radius: 10px;
+  padding: 50px 40px;
+}
+
+  /* index page style; */
+.container-text-center{
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  background: transparent;
+  border: 2px solid rgba(2, 2, 2, 0.2);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+  color: #fff;
+  border-radius: 10px;
+  padding: 50px 40px;
+}
+
+.container-text-center img{
+  width: 100%;
+  height: auto;
+}
+
+
+.container-login{
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  background: transparent;
+  border: 2px solid rgba(2, 2, 2, 0.2);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+  color: #fff;
+  border-radius: 10px;
+  padding: 50px 40px;
 }
